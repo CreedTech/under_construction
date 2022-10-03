@@ -1,0 +1,123 @@
+
+
+
+*, *:before, *:after {
+	margin: 0px; 
+	padding: 0px; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, html {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #666666;
+
+	height: 100%;
+	background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* ------------------------------------ */
+h1,h2,h3,h4,h5,h6,p {margin: 0px;}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+.p-t-50 {padding-top: 50px;}
+.p-t-55 {padding-top: 55px;}
+.p-b-10 {padding-bottom: 10px;}
+.p-b-35 {padding-bottom: 35px;}
+.p-b-50 {padding-bottom: 50px;}
+.p-b-60 {padding-bottom: 60px;}
+.p-r-15 {padding-right: 15px;}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ TEXT ]*/
+.color-white {color: white;}
+.color-black {color: black;}
+
+
+/* ------------------------------------ */
+.txt-center {text-align: center;}
+.txt-left {text-align: left;}
+.txt-right {text-align: right;}
+.txt-middle {vertical-align: middle;}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ BACKGROUND ]*/
+.bgwhite {background-color: white;}
+.bgblack {background-color: black;}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ POSITION ]*/
+
+/*------------------------------------------------------------------
+[ Display ]*/
+.dis-none {display: none;}
+.dis-block {display: block;}
+.dis-inline {display: inline;}
+.dis-inline-block {display: inline-block;}
+
+.flex-w,
+.flex-col-c,
+.flex-col-c-sb{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+
+/*------------------------------------------------------------------
+[ Flex ]*/
+/* ------------------------------------ */
+.flex-w {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+
+/* ------------------------------------ */
+.flex-col-c {
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.flex-col-c-sb {
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+
+/* ------------------------------------ */
+.flex-col-c,
+.flex-col-sb,
+.flex-col-c-sb{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
